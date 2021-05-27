@@ -17,4 +17,5 @@ function fabionacciRecursive(number) {
 	}
 }
 
+
 console.log(fabionacciRecursive(3))
