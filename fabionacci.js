@@ -1,6 +1,6 @@
 function fabionacci(number) {
-	var answer = [0, 1]
-	for (var i = 2; i < number; i++) {
+	let answer = [0, 1]
+	for (let i = 2; i < number; i++) {
 		answer.push(answer[i - 2] + answer[i - 1])
 	}
 	return answer
